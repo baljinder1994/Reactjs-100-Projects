@@ -1,0 +1,15 @@
+.container{
+  max-width:400px;
+  margin:0 auto;
+  padding:20px
+}
+.list{
+  list-style-type: none;
+  padding:0
+}
+.item{
+  background-color: azure;
+  padding:10px;
+  margin-bottom: 5px;
+  cursor: grab;
+}

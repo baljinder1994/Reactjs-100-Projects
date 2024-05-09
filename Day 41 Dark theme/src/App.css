@@ -1,0 +1,14 @@
+.toggle{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toggle.light{
+  background-color: #fff;
+  color:#000
+}
+.toggle.dark{
+  background-color: #000;
+  color:#fff;;
+}

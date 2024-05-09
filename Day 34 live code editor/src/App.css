@@ -1,0 +1,28 @@
+.live-code-editor{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height:100vh;
+  padding:20px
+}
+.editor-container{
+  display: flex;
+  flex-direction: row;
+  gap:20px
+}
+.editor{
+  flex:1
+}
+textarea{
+  width:100%;
+  resize: none;
+  padding:14px;
+  font-size: 14px;
+}
+.preview{
+  flex:1;
+  margin-top: 50px;
+}
+iframe{
+  border:1px solid #ccc
+}
